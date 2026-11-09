@@ -1,0 +1,9 @@
+{
+  "quick": false,
+  "seeds": 5,
+  "runtime_s": 826.7,
+  "mc_max_abs_err": 0.0020302459664469086,
+  "mc_mean_abs_err": 0.0003113699097694554,
+  "torch": "2.11.0+cu128",
+  "numpy": "2.2.6"
+}
