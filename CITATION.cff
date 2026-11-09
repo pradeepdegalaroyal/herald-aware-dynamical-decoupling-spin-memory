@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Herald-Aware Dynamical Decoupling Schedules for a Spin Quantum Memory"
+type: software
+authors:
+  - family-names: Degala
+    given-names: Chenchupradeep
+version: 0.1.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/pradeepdegalaroyal/herald-aware-dynamical-decoupling-spin-memory"
+abstract: "Simulation study of how a spin memory in a quantum network should be dynamically decoupled when the release time (herald arrival) is random, comparing tuned CPMG, learned schedules and a herald-triggered closing pulse against a known-time optimum."
+keywords:
+  - dynamical decoupling
+  - spin qubits
+  - quantum networks
+  - quantum memory

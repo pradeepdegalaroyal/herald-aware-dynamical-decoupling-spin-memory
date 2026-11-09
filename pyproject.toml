@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "herald-dd"
+version = "0.1.0"
+description = "Herald-aware dynamical decoupling schedules for a spin quantum memory"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Degala Chenchupradeep" }]
+dependencies = ["numpy", "scipy", "pandas", "matplotlib", "torch"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
